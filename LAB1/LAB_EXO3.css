@@ -1,0 +1,101 @@
+/* universal selector */
+* {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #336699;
+}
+
+p {
+    margin-bottom: 1em;
+}
+/* class selector */
+#special {
+    background-color: #fffacd;
+    padding: 10px;
+}
+
+
+.hello {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* child selector */
+.main-content > h2,
+.ai-tools > h2 {
+    text-transform: uppercase;
+}
+
+
+.ai-tools li {
+    list-style-type: square;
+}
+
+
+.ai-tools ul {
+    padding-left: 20px;
+}
+
+/* 4. Attribute Selectors*/
+
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*5. Pseudo-classes and Pseudo-elements*/
+
+
+a {
+    color: #007bff;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #0056b3; 
+}
+a:visited {
+    color: #6c757d;
+}
+
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* 6. Combining Selectors & Specificity Challenge*/
+
+
+div.ai-tools li.hello {
+    font-style: italic;
+}
+
+
+footer h1 {
+    font-size: 1.2em;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+

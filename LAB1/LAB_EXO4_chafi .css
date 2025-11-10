@@ -1,0 +1,45 @@
+/* 3. Apply global rules to the whole page */
+html {
+    margin: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+}
+
+/* 4. Body margins */
+body {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+/* 5 & 6. Text font and size rules */
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    line-height: 180%;
+}
+
+/* 7. First h2 and first p styles */
+h2:first-of-type {
+    font-size: 75%;
+}
+
+p:first-of-type {
+    font-size: 70%;
+}
+
+/* 7 (continued). Second paragraph indentation */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
+
+/* 8. Heading colors and fonts */
+h1 {
+    color: #ffffdd;
+}
+
+h2 {
+    color: #966b72;
+    font-family: Georgia, serif;
+}
